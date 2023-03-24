@@ -27,4 +27,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 	@include mixins.container;
+
+	&-brand {
+		color: variables.$primary-color;
+		font-size: ;
+	}
 }
